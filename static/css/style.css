@@ -112,13 +112,13 @@ img {
   background-color: rgba(56, 57, 52, var(--tw-bg-opacity));
   transition: .3s;
   transform: scale(1);
-  transition-timing-function: ease-in-out;
+  transition-timing-function: cubic-bezier(0.8, 0.33, 0, 1.12);
 }
 
 .bg-hex-383934:hover {
 --tw-bg-opacity: 0;
 background-color: rgba(56, 57, 52, var(--tw-bg-opacity));
-transform: scale(1.1);
+transform: scale(1.1) translateZ(0);
 }
 
 
@@ -132,11 +132,11 @@ transform: scale(1.1);
     background-color: rgba(246, 243, 212, var(--tw-bg-opacity));
     transition: .3s;
     transform: scale(1);
-    transition-timing-function: ease-in-out;
+    transition-timing-function: cubic-bezier(0.8, 0.33, 0, 1.12);
 }
 
 .bg-hex-F6F3D4:hover {
-  transform: scale(1.066);
+  transform: scale(1.066) translateZ(0);
 }
 
 .bg-hex-FCF9EF {
